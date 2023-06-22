@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 70px auto;
+    background-color: green;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .bmi-guide {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .bmi-calculator {
+    flex: 1;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    color: #000000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 120px;
+  }
+  
+  
+  #results {
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
